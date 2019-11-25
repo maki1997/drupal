@@ -1,0 +1,6 @@
+movies:
+  path: '/movies'
+  defaults:
+    _controller: '\Drupal\movie_module\Controller\MoviesController::movie'
+  requirements:
+    _permission: 'access content'
